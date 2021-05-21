@@ -1,0 +1,22 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        // {
+        //     "name": "Edge debug",
+        //     "port": 18080,
+        //     "request": "launch",
+        //     "type": "pwa-msedge",
+        //     "webRoot": "${workspaceFolder}",
+        //     "url": "http://127.0.0.0:18080",
+        // },
+        {
+            "type": "pwa-msedge",
+            "request": "launch",
+            "name": "Open test.html",
+            "file": "d:\\Datas\\codeworks\\JavaScript\\test\\test.html"
+        }
+    ]
+}
