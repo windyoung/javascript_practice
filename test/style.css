@@ -15,3 +15,10 @@ body {
     width: 700px;
     margin: 30px auto;
 }
+
+li.list{
+    background: brown;
+}
+.title_class{
+    color: red;
+}
