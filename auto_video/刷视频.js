@@ -1,4 +1,8 @@
 console.log("start 油猴脚本")
+//解除浏览器视频播放限制
+//http://www.xitongtang.com/class/llq/20895.html
+//https://www.jianshu.com/p/b360bc4793e5?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation
+
 setInterval(() => {
     //未完成的视频数量
     const cont_unstart_ = document.getElementsByClassName('content-unstart').length;
