@@ -1,5 +1,6 @@
 console.log("start 油猴脚本")
 function check_video_process(percent_) {
+    //处理视频进度和学习进度不一致的情况
     var total_duration_list = document.getElementsByClassName("vjs-duration-display")[0].innerText.split(':')
     var total_durations = parseInt(parseInt(total_duration_list[0] * 60) + parseInt(total_duration_list[1]))
 
