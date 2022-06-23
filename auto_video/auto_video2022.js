@@ -52,6 +52,7 @@
         { console.log("all finished")
          clearInterval(working_)
          console.log("clearInterval triggerred")
+         window.location.href="about:blank";window.close()
         }
     }
 
