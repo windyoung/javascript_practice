@@ -93,3 +93,34 @@
 
     var working_= setInterval(function () { autocheckvideos() }, 3100)
     })();
+
+
+
+// 课程详情
+// https://m.mynj.cn:11188/zxpx/hyper/courseDetail?ocid=OC202103110000005526
+// //已完成课程
+// var const_content_finished = document.getElementsByClassName('content-finished').length 
+// //未开始课程
+// var const_content_unstart =document.getElementsByClassName('content-unstart').length 
+// //未完成课程
+// var const_content_learning =document.getElementsByClassName('content-learning').length 
+// 
+// 全部完成 -> 关闭
+// const_content_finished !=0 && const_content_unstart ==0 && const_content_learning ==0 
+// 学习中 -》 学习
+// const_content_unstart >=0 && const_content_learning ！=0 
+// 全部未开始 -》 学习
+// const_content_finished ==0 && const_content_unstart > 0 && const_content_learning ==0 
+// 
+// 
+// const_content_learning > 0 {document.getElementsByClassName('content-learning')[0].click()} 
+// 
+// const_content_learning ==0 && const_content_unstart >0 {document.getElementsByClassName('content-unstart')[0].click()} 
+// 
+// 
+// 当前页面
+// window.location.href
+// 
+// 
+// 我的课程
+// https://m.mynj.cn:11188/zxpx/auc/myCourse
